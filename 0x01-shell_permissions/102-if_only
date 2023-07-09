@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R --from=betty guillame /
+find / -user guillame -exec chown betty {} \
